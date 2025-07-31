@@ -37,6 +37,7 @@ function removeTodo(todo) {
 </script>
 
 <template>
+  <h1>Vue Todo List</h1>
   <!-- Input component for adding new todos -->
   <TodoInput @add="addTodo" />
   <!-- Toggle component to show/hide completed todos -->

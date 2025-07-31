@@ -13,6 +13,7 @@ function submit() {
 </script>
 
 <template>
-  <input v-model="input" @keyup.enter="submit">
+  <label for="todo-input">New Todo:</label>
+  <input id="todo-input" v-model="input" @keyup.enter="submit">
   <button @click="submit">Add Todo</button>
 </template>
