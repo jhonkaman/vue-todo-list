@@ -12,6 +12,6 @@ const emit = defineEmits(['toggle']);
       :checked="hideCompleted"
       @change="$emit('toggle')"
     />
-    Hide completed
+    Hide Completed
   </label>
 </template>
